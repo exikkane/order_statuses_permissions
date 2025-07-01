@@ -1,0 +1,1 @@
+{include file="addons/order_statuses_permissions/components/settings_objects.tpl" object=$paid_order_status setting_object="paid_order_status"}

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>order_statuses_permissions</id>
+    <version>1.0</version>
+    <priority>10000</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <status>active</status>
+    <supplier>A. Larionov | CS-Cart</supplier>
+    <queries>
+        <item for="install">ALTER TABLE ?:orders ADD vendor_can_change_status char(1) NOT NULL DEFAULT 'N'</item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP COLUMN vendor_can_change_status</item>
+    </queries>
+    <settings edition_type="ROOT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="shipped_order_status">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="paid_order_status">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

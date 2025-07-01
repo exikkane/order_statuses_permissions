@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::order_statuses_permissions"
+msgid "Order status permissions"
+msgstr "Order status permissions"
+
+msgctxt "Addons::description::order_statuses_permissions"
+msgid "Adds restrictions to vendors of managing order statuses. Developed by alarionov | CS-Cart support"
+msgstr "Adds restrictions to vendors of managing order statuses. Developed by alarionov | CS-Cart support"
+
+msgctxt "Languages::order_statuses_permissions.vendor_can_change_status"
+msgid "Vendor can change the status of this order"
+msgstr "Vendor can change the status of this order"
+
+msgctxt "SettingsOptions::order_statuses_permissions::shipped_order_status"
+msgid "Order status that is considered as shipped"
+msgstr "Order status that is considered as shipped"
+
+msgctxt "SettingsOptions::order_statuses_permissions::paid_order_status"
+msgid "Order status that is considered as paid"
+msgstr "Order status that is considered as paid"
