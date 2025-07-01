@@ -12,7 +12,7 @@ msgctxt "Addons::description::order_statuses_permissions"
 msgid "Adds restrictions to vendors of managing order statuses. Developed by alarionov | CS-Cart support"
 msgstr "Adds restrictions to vendors of managing order statuses. Developed by alarionov | CS-Cart support"
 
-msgctxt "Languages::order_statuses_permissions.vendor_can_change_status"
+msgctxt "Languages::vendor_can_change_status"
 msgid "Vendor can change the status of this order"
 msgstr "Vendor can change the status of this order"
 
