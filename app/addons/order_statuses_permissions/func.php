@@ -11,3 +11,8 @@ function fn_order_statuses_permissions_change_vendor_order_status_permission($or
 {
     db_query("UPDATE ?:orders SET vendor_can_change_status = ?s WHERE order_id = ?i", $permission, $order_id);
 }
+
+function fn_order_statuses_permissions_get_orders($params, &$fields)
+{
+    $fields[] = '?:orders.vendor_can_change_status';
+}
