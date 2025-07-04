@@ -10,6 +10,8 @@
     <queries>
         <item for="install">ALTER TABLE ?:orders ADD vendor_can_change_status char(1) NOT NULL DEFAULT 'N'</item>
         <item for="uninstall">ALTER TABLE ?:orders DROP COLUMN vendor_can_change_status</item>
+        <item for="install">ALTER TABLE ?:orders ADD paid_order char(1) NOT NULL DEFAULT 'N'</item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP COLUMN paid_order</item>
     </queries>
     <settings edition_type="ROOT">
         <sections>
